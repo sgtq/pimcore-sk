@@ -12,6 +12,9 @@ pimcore:
 # or even more specific:
 # ./bin/console debug:config pimcore assets.image
 
+    bundles:
+        search_paths:
+            - bundles/ShopifyBundle
 
 #### TRANSLATIONS
 #    translations:
@@ -134,4 +137,3 @@ framework:
 #     return:
 #         name: ''
 #         email: ''
-

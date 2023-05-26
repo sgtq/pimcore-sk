@@ -1,8 +1,7 @@
 <?php
 
-use Umg\ShopifyBundle;
-
 return [
     //Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
-    //Umg\ShopifyBundle\UmgShopifyBundle::class => ['all' => true],
+    Pimcore\Bundle\BundleGeneratorBundle\PimcoreBundleGeneratorBundle::class => ['all' => true],
+    ShopifyBundle\ShopifyBundle::class => ['all' => true],
 ];

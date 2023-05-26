@@ -1,0 +1,3 @@
+shopify_homepage:
+    path:     /shopify
+    defaults: { _controller: ShopifyBundle\Controller\DefaultController:indexAction }
